@@ -1,1 +1,0 @@
-# heroku-gradle-build-pack
