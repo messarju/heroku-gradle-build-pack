@@ -37,7 +37,7 @@ gradle_download() {
 	else
 		echo "       Extracting to $ZIP_OPT_DIR"
 	fi
-	unzip -d "$ZIP_OPT_DIR" "$ZIP_CACHE"
+	unzip -q -d "$ZIP_OPT_DIR" "$ZIP_CACHE"
 	mv -v "$ZIP_OPT_DIR"/*/* "$ZIP_OPT_DIR"
 }
 
